@@ -1,3 +1,6 @@
 [submodule "my_plugins/vim-livedown"]
 	path = my_plugins/vim-livedown
 	url = https://github.com/shime/vim-livedown
+[submodule "my_plugins/indentLine"]
+	path = my_plugins/indentLine
+	url = https://github.com/Yggdroot/indentLine
