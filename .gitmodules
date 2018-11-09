@@ -4,3 +4,9 @@
 [submodule "my_plugins/indentLine"]
 	path = my_plugins/indentLine
 	url = https://github.com/Yggdroot/indentLine
+[submodule "my_plugins/eclim"]
+	path = my_plugins/eclim
+	url = https://github.com/ervandew/eclim
+[submodule "my_plugins/supertab"]
+	path = my_plugins/supertab
+	url = https://github.com/ervandew/supertab
