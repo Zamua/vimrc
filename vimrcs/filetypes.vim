@@ -58,6 +58,19 @@ au FileType coffee call CoffeeScriptFold()
 
 au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 
+""""""""""""""""""""""""""""""
+" => Java section
+"""""""""""""""""""""""""""""""
+function! JavaFold()
+    syn keyword javaExternal native package
+    "syn region foldImports start=/\(^\s*\n^import\)\@<= .\+;/ end=+^\s*$+ transparent fold keepend
+    syn region foldImports start="import" end=/import.*\n^$/ transparent fold keepend
+
+    syn sync fromstart
+    setl foldmethod=syntax
+    setl foldlevelstart=1
+endfunction
+au FileType java call JavaFold()
 
 """"""""""""""""""""""""""""""
 " => Shell section

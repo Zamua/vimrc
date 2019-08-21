@@ -7,6 +7,9 @@
 [submodule "my_plugins/eclim"]
 	path = my_plugins/eclim
 	url = https://github.com/ervandew/eclim
-[submodule "my_plugins/supertab"]
-	path = my_plugins/supertab
-	url = https://github.com/ervandew/supertab
+[submodule "my_plugins/coc.nvim"]
+	path = my_plugins/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "my_plugins/emmet-vim"]
+	path = my_plugins/emmet-vim
+	url = https://github.com/mattn/emmet-vim
