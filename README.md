@@ -1,6 +1,14 @@
 ![VIM](https://dnp4pehkvoo6n.cloudfront.net/43c5af597bd5c1a64eb1829f011c208f/as/Ultimate%20Vimrc.svg)
 
-My additions to the ultimate vimrc. Original README below.
+My additions to the ultimate vimrc.
+
+## Installation
+````
+git clone --depth=1 https://github.com/zamua/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+````
+Original README below.
+
 
 # The Ultimate vimrc
 
