@@ -40,24 +40,6 @@ let g:lightline = {
       \ }
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => ale
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType javascript map <leader>f :ALEFix<cr>
-autocmd FileType typescript map <leader>f :ALEFix<cr>
-
-let g:ale_completion_enabled = 1
-
-let g:ale_sign_error = '●'
-let g:ale_sign_warning = '.'
-let g:ale_lint_on_enter = 0
-let g:ale_linters = {}
-let g:ale_linters['javascript'] = ['standard']
-let g:ale_linters['typescript'] = ['eslint']
-let g:ale_fixers = {}
-let g:ale_fixers['javascript'] = ['standard']
-let g:ale_fixers['typescript'] = ['eslint']
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ctrlp
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ctrlp_map = '<c-p>'
