@@ -13,3 +13,7 @@
 [submodule "my_plugins/emmet-vim"]
 	path = my_plugins/emmet-vim
 	url = https://github.com/mattn/emmet-vim
+[submodule "my_plugins/vim-scala"]
+	path = my_plugins/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
+	branch = master

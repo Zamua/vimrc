@@ -73,6 +73,11 @@ endfunction
 au FileType java call JavaFold()
 
 """"""""""""""""""""""""""""""
+" => Scala section
+""""""""""""""""""""""""""""""
+au BufRead,BufNewFile *.sbt set filetype=scala
+
+""""""""""""""""""""""""""""""
 " => Shell section
 """"""""""""""""""""""""""""""
 if exists('$TMUX') 
