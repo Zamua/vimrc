@@ -17,3 +17,6 @@
 	path = my_plugins/vim-scala
 	url = https://github.com/derekwyatt/vim-scala
 	branch = master
+[submodule "my_plugins/vim-healthcheck"]
+	path = my_plugins/vim-healthcheck
+	url = https://github.com/rhysd/vim-healthcheck

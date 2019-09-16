@@ -93,3 +93,10 @@ endif
 " => Twig section
 """"""""""""""""""""""""""""""
 autocmd BufRead *.twig set syntax=html filetype=html
+
+""""""""""""""""""""""""""""""
+" => Ruby section
+""""""""""""""""""""""""""""""
+"fix laggy syntax highlighting
+"https://stackoverflow.com/questions/16902317/vim-slow-with-ruby-syntax-highlighting
+autocmd BufRead *.rb set re=1
