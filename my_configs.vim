@@ -95,7 +95,6 @@ nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
-
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
     execute 'h '.expand('<cword>')
@@ -118,6 +117,3 @@ nmap <leader>f  <Plug>(coc-fix-current)
 
 " use `:OR` for organize import of current buffer
 nmap <leader>o :CocCommand java.action.organizeImports<CR>
-
-" Make sure coc uses compiled code
-let g:coc_force_debug = 1
