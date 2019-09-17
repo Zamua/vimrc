@@ -32,6 +32,9 @@ nnoremap <F4> mm:let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>`m
 "Copy to system clipboard
 vmap <C-c> "*y<CR>
 
+"https://vim.fandom.com/wiki/Search_for_visually_selected_text
+vnoremap // y/<C-R>"<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => lightline
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
