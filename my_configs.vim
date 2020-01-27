@@ -34,6 +34,7 @@ vmap <C-c> "*y<CR>
 
 "https://vim.fandom.com/wiki/Search_for_visually_selected_text
 vnoremap // y/<C-R>"<CR>
+vnoremap /g y:Ggr <C-R>"<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => lightline
@@ -120,3 +121,6 @@ nmap <leader>f  <Plug>(coc-fix-current)
 
 " use `:OR` for organize import of current buffer
 nmap <leader>o :CocCommand java.action.organizeImports<CR>
+
+" :Ggr <arg> to git grep and open quick fix window
+command -nargs=+ G execute 'silent Ggrep!' <q-args> | cw | redraw!
